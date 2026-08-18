@@ -49,5 +49,6 @@ body{background:var(--ink);color:var(--text)}
 .form-grid input:focus,.form-grid select:focus,.form-grid textarea:focus{border-color:var(--acid);box-shadow:0 0 0 2px rgba(242,238,56,.22)}
 .success{background:#172b22;color:#e7f2eb;border:1px solid #37634c}
 .reset-form{color:var(--acid)}
+.submit-button:disabled{cursor:wait;opacity:.7;transform:none}.submit-button.is-submitting{pointer-events:none}.form-error{background:#351b1b;color:#f7dddd;border:1px solid #8b4545;padding:24px;border-radius:4px;margin-top:20px}.form-error[hidden]{display:none}.form-error b{font-size:20px}.form-error p{font-size:13px;margin-bottom:0}
 @media(max-width:900px){.service-list article:nth-child(even){margin-left:-16px;margin-right:-16px;padding-left:16px;padding-right:16px}}
 @media(max-width:560px){.intro-band:before,.editorial:before{left:16px}.process-grid li,.process-grid li+li{border-color:#515356}.service-list article:nth-child(even){margin-left:-16px;margin-right:-16px}.contact-hero form{background:rgba(21,23,25,.98)}}
